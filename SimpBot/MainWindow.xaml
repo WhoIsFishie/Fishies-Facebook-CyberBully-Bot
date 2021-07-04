@@ -1,0 +1,46 @@
+﻿<Window x:Class="SimpBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpBot"
+        mc:Ignorable="d"
+        Title="Simp Bot" Height="400" Width="400" Background="#FF101010" Foreground="White" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Closing="Window_Closing">
+    <Grid>
+        
+        <StackPanel Margin="5" >
+            <TextBlock Foreground="#ff3f34" FontSize="20" HorizontalAlignment="Center">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="#FFFF3F34" BlurRadius="20" ShadowDepth="0"/>
+                </TextBlock.Effect>Fishie's Facebook CyberBully BOT</TextBlock>
+            <Label Foreground="#ff3f34">Facebook Username</Label>
+            <TextBox x:Name="FBusername" Margin="5" BorderBrush="#ff3f34" Background="#FF101010" Foreground="#FFC3C3C3" BorderThickness="0,0,0,1.4">
+
+            </TextBox>
+            <Label Foreground="#ff3f34">Email/Number</Label>
+            <TextBox x:Name="username" Foreground="#FFC3C3C3" Margin="5" BorderBrush="#ff3f34" Background="#FF101010" BorderThickness="0,0,0,1.4">
+                
+            </TextBox>
+
+            <Label Foreground="#ff3f34">Password</Label>
+            <PasswordBox x:Name="password" Foreground="#FFC3C3C3" Margin="5" BorderBrush="#ff3f34" Background="#FF101010" BorderThickness="0,0,0,1.4">
+                
+            </PasswordBox>
+
+
+            <Label Foreground="#ff3f34">CyberBully Target Username</Label>
+            <TextBox x:Name="Target" Margin="5" Foreground="#FFC3C3C3" BorderBrush="#ff3f34" Background="#FF101010" BorderThickness="0,0,0,1.4">
+
+            </TextBox>
+
+            <Label Foreground="#ff3f34">  CyberBully Comment</Label>
+            <TextBox x:Name="Comment" Margin="5" Foreground="#FFC3C3C3" BorderBrush="#ff3f34" Background="#FF101010" BorderThickness="0,0,0,1.4">
+
+            </TextBox>
+            <Button Foreground="#ff3f34" x:Name="StartButton" Margin="5" Click="StartButton_Click" Background="#FF101010" Height="40" BorderBrush="#ff3f34" BorderThickness="2">
+                Start
+            </Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>
