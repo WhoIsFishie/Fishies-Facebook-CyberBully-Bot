@@ -7,3 +7,6 @@ you have to build the code yourself. i really dont wanna post the build of the c
 
 ## girlfriend bot 
  it is pretty self explainatory. its a virtual girlfriend
+
+# Video of me coding this
+https://youtu.be/DEJERcliEB8
